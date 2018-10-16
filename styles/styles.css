@@ -6,13 +6,12 @@ body {
 
 div {
     text-align: center;
-    vertical-align: middle;
     color: white;
 }
 
 section {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     margin: auto;
 }
 
@@ -20,22 +19,23 @@ section {
 #a {
     height: 9.7%;
     background: blue;
+    line-height: 150%;
 }
 
 #b {
-    height: 9.7%;
+    height: 19.5%;
     background: red;
 }
 
 
 #c {
-    height: 9.7%;
+    height: 16.3%;
     background: purple;
 }
 
 
 #d {
-    height: 9.7%;
+    height: 16.3%;
     background: green;
 }
 
@@ -74,6 +74,7 @@ section {
     clear: both;
 }
 
+
 /* Desktops */
 @media all and (min-width: 768px){
 
@@ -91,7 +92,6 @@ section {
     
     div {
         text-align: center;
-        vertical-align: middle;
         color: white;
     }
 
